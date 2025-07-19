@@ -1,0 +1,32 @@
+{
+  "sections": [
+    {
+      "title": "استلام المواد الغذائية الطازجة",
+      "items": [
+        {
+          "title": "درجة حرارة المواد الطازجة",
+          "type": "number",
+          "required": true,
+          "threshold": {
+            "min": 1,
+            "max": 5
+          }
+        },
+        {
+          "title": "مظهر العبوات",
+          "type": "choice",
+          "required": true,
+          "options": [
+            "مطابق",
+            "غير مطابق"
+          ]
+        },
+        {
+          "title": "تاريخ الصلاحية",
+          "type": "text",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
